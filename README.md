@@ -2,6 +2,8 @@
 
 Labs/Notes/Projects for COSC 311 at Salisbury University
 
+Languages used ~> Python run through Jupyter
+
 Instructor ~> Dr. Joseph Anderson
 
 Year ~> Fall 2020
