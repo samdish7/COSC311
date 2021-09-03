@@ -6,4 +6,4 @@ Languages used ~> Python run through Jupyter
 
 Instructor ~> Dr. Joseph Anderson
 
-Year ~> Fall 2020
+Year ~> Fall 2021
