@@ -130,3 +130,9 @@ dmypy.json
 
 # zipped folder
 **/zipped
+
+# data folders
+**/data
+
+#useless stuff
+**/.DS_Store
