@@ -16,3 +16,17 @@
 7. From the two mean estimates above, draw at least one relationship conclusion (e.g. the mean of X is larger than the mean of Y ) and find the p-value that shows the strength of that conclusion. Does this mean you can reject your hypothesis or not?
     - (a) Looking at the data (in the form of a histogram), how close is it to a Normal distribution?
     - (b) If it is not close, then what does this say about your p-value?
+    
+## Answers
+
+4; A) The 6 relationships are as follows:
+
+    1. Sepal_length vs Sepal_width
+    2. Sepal_length vs Petal_length
+    3. Sepal_length vs Petal_width
+    4. Sepal_width vs Petal_length
+    5. Sepal_width vs Petal_width
+    6. Petal_length vs Petal_width
+
+## Issues
+
