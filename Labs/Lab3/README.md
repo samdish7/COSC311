@@ -19,7 +19,8 @@
     
 ## Answers
 
-4; A) The 6 relationships are as follows:
+### 4; 
+A) The 6 relationships are as follows:
 
     1. Sepal_length vs Sepal_width
     2. Sepal_length vs Petal_length
@@ -27,6 +28,23 @@
     4. Sepal_width vs Petal_length
     5. Sepal_width vs Petal_width
     6. Petal_length vs Petal_width
+    
+B) *In lab 3 file*
+
+### 5;
+
+*In lab 3 file*
+
+### 6;
+
+*In lab 3 file*
+
+### 7;
+
+A) *More detailed in lab 3 file*, but the distributions appear to be normal.
+
+B) *In lab 3 file*
 
 ## Issues
 
+Not sure if I did the confidence intervals correctly for numbers 5 and 6, but it didn't crash the program and it gave me the correct answers, so I'm gonna assume that I was right in what I did.

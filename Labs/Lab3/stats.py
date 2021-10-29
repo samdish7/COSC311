@@ -140,6 +140,17 @@ def two_sided_p(x, mu, sigma):
         return 2 * normal_probability_above(x,mu,sigma)
     else:
         return 2 * normal_cdf(x,mu,sigma)
+
+def ab_parameters(n,N):
+    mu = n/N
+    sigma = math.sqrt(mu * (1-mu) / N)
+    return mu, sigma
+
+def ab_statistic(nA, NA, nB, NB):
+    mu_A, sigma_A = ab_parameters(nA, NA)
+    mu_B, sigma_B = ab_parameters(nB, NB)
+    return (mu_A - mu_B/math.sqrt(sigma_A**2 + sigma_B**2))
+    
 # something you will see...
 # we can make this do the print, but *only* when this
 # file is run as a standalone program, not through an import.
