@@ -1,8 +1,7 @@
 # Lab 4, Adults Data Set pt. 2 
 
 ## Details
-1. You may submit this lab in groups of one or two.
-2. Download the “Adult” data set from the UCI Machine Learning data repository: [Adults Link](https://archive.ics.uci.edu/ml/datasets/Adult). This dataset is record of adults, along with various occupational and lifestyle attributes. Each adult is “labeled” as to whether or not they make more or less than $50k per year. Using this as a driving label, one would typically want to design a process to determine what combinations of factors enable a person to make more than $50k per year.
+1. Download the “Adult” data set from the UCI Machine Learning data repository: [Adults Link](https://archive.ics.uci.edu/ml/datasets/Adult). This dataset is record of adults, along with various occupational and lifestyle attributes. Each adult is “labeled” as to whether or not they make more or less than $50k per year. Using this as a driving label, one would typically want to design a process to determine what combinations of factors enable a person to make more than $50k per year.
     (a) Read the data into a pandas DataFrame object.
     (b) Use the data and the numpy library to compute the following:
     
@@ -16,7 +15,7 @@
         viii. Create a table where entry (x, y) contains the conditional probability of having marital status x given that they have occupation y.
         ix. What is the conditional probability of making more or less than $\$50k given that a person works in each different occupation?
         x. Plot the change in probability that a person makes more and less than $\$50k given the amount that they work per week.
-3. Answer the following questions using the fundamentals of probability.
+2. Answer the following questions using the fundamentals of probability.
     (a) If A and B are independent, show that  ̄A and B,  ̄A and B,  ̄A and  ̄B are independent.
     (b) Suppose we send 30% of our products to company A and 70% of our products to company B. Company A reports that 5% of our products are defective and company B reports that 4% of our products are defective. For each probability below, compute the precise value by hand, and also write a short Python script to simulate the above scenario and estimate each probability be empirically examining the rates of each event.
     
@@ -29,3 +28,15 @@
 ## Answers
 
 ## Issues
+
+### B) ii)
+
+I couldn't get the bit-wise & to work, so I had to add the total of that percentile the long way.
+
+_ex._ Tried total_mid = **len(adults[['education-num','income']][((adults['education-num'] > per_25) & (adults['education-num'] <= per_50)])** for Q2, but it gave me the entire length of the data frame for some reason.
+
+### B) iii) 
+
+Couldn't get the legend to work properly, so I ommited it :3
+
+
