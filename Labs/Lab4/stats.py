@@ -159,6 +159,7 @@ def ab_statistic(nA, NA, nB, NB):
 # So the program that got ran through python is __main__
 # typically used if you want have some tests here but 
 # don't run the tests when you import into other programs
+"""
 if __name__ == '__main__':
     print('testing stats.py...')
     
@@ -171,3 +172,4 @@ if __name__ == '__main__':
     print(f'the mode of {[1,2,3,4,3,2,3,1,2,1,1,2,3,2]} is {mode([1,2,3,4,3,2,3,1,2,1,1,2,3,2])}')
     print(f'the 20th percentile of {[1,2,3,4,3,2,3,1,2,1,1,2,3,2]} is {quantile([1,2,3,4,3,2,3,1,2,1,1,2,3,2], 0.2)}')
     print(f'the IQR of {[1,2,3,4,3,2,3,1,2,1,1,2,3,2]} is {interquartile_range([1,2,3,4,3,2,3,1,2,1,1,2,3,2])}')
+"""

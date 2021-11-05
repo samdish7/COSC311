@@ -39,4 +39,8 @@ _ex._ Tried total_mid = **len(adults[['education-num','income']][((adults['educa
 
 Couldn't get the legend to work properly, so I ommited it :3
 
+### B) iv)
 
+This takes a VERY long time to compute  with stats.cov(), so I took the first 4000 elements of the data and found the cov of that so I could at least have something, and then I let the program run as long as possible to compute the cov of the entire thing. I'll store the number somewhere so you don't have to run it (if you even planned on running it anyway :))
+
+The cov is ~> 4.705193436213586; It took 4226.1184 seconds to calculate. 
