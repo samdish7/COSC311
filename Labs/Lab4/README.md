@@ -27,20 +27,30 @@
     
 ## Answers
 
+All answers are given in lab
+
 ## Issues
 
-### B) ii)
+### 2 B) ii)
 
 I couldn't get the bit-wise & to work, so I had to add the total of that percentile the long way.
 
 _ex._ Tried total_mid = **len(adults[['education-num','income']][((adults['education-num'] > per_25) & (adults['education-num'] <= per_50)])** for Q2, but it gave me the entire length of the data frame for some reason.
 
-### B) iii) 
+### 2 B) iii) 
 
 Couldn't get the legend to work properly, so I ommited it :3
 
-### B) iv)
+### 2 B) iv)
 
 This takes a VERY long time to compute  with stats.cov(), so I took the first 4000 elements of the data and found the cov of that so I could at least have something, and then I let the program run as long as possible to compute the cov of the entire thing. I'll store the number somewhere so you don't have to run it (if you even planned on running it anyway :))
 
 The cov is ~> 4.705193436213586; It took 4226.1184 seconds to calculate. 
+
+### 2 B) vi - x)
+
+I wasn't sure how to get the tables to display like the examples given in class, so I just got a large table for all of them... sorry :)
+
+### 3 C)
+
+I couldn't solve this proof, so I started it for a little bit of credit.
