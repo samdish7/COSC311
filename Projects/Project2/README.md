@@ -66,3 +66,6 @@ We plan to use this algorithm to group each point based off of given means of ce
 *NOTE* ~> We will be including mega evolution types in this category. Therefore the stats of the data we will be using are as follows:
 - Number of Pokemon ~> 1045
 - Columns ~> 11
+
+## Update 2; 12/5/21
+
