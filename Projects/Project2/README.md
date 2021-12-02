@@ -68,3 +68,5 @@ We plan to use this algorithm to group each point based off of given means of ce
 - Columns ~> 11
 
 ## Update 2; 12/5/21
+
+We have answered questions 1 & 2 and began working on implementing the KNN algorithm. 

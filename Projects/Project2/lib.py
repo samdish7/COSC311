@@ -1,6 +1,10 @@
 import numpy as np
-import math
-from collections import Counter
+import numpy.linalg as la
+from collections import Counter as c
+
+
+def norm(x):
+    return np.sqrt(np.sum(x**2))
 
 class KNN:
     k = 0
@@ -15,17 +19,14 @@ class KNN:
         self.labels = labs
     
     def predict(self, X):
-        
-        #make sure columns equal
-        #assert(self.data.shape[1] == (len(X[i]) for i in X)) # will come back to this
-        #assert(self.data.shape[1] == len(X[0]))
-        
+    
         dist = [
-            (self.labels[i], la.norm(X-self.data[i])) for i in range(len(data))
+            (self.labels[i], la.norm(X-self.data[i])) for i in range(len(self.data))
         ]
         
         k_nearest = sorted(dist, key = lambda X: X[1])
         k_nearest = k_nearest[:self.k]
+        
 
         f = c([p[0] for p in k_nearest])
         return f
