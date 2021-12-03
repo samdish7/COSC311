@@ -57,7 +57,7 @@ We can use these to determine which combination is best as predicting if it is l
 
 *NOTE* ~> We will NOT be including mega evolutions in this set. This will cause the data to be less consistent because mega evolutions have a significant increase in stats. So it is not ideal for them to be in this. Therefore the stats of the data we will be using are as follows:
 - Number of Pokemon ~> 870
-- Columns ~> 11
+- Columns ~> 13
 
 ### K means Clustering
 
@@ -65,8 +65,12 @@ We plan to use this algorithm to group each point based off of given means of ce
 
 *NOTE* ~> We will be including mega evolution types in this category. Therefore the stats of the data we will be using are as follows:
 - Number of Pokemon ~> 1045
-- Columns ~> 11
+- Columns ~> 13
 
 ## Update 2; 12/5/21
 
-We have answered questions 1 & 2 and began working on implementing the KNN algorithm. 
+We have answered questions 1 & 2 and began working on implementing the KNN algorithm. It works well, and we plan to do quite a bit more with it during the final week. We are currently making progress on the K-means algorithm and still plan to explain that this data set is not ideal for it. 
+
+Once we finish our two main ones, we plan on attempting to make a simple neural net to predict which pokemon would win in a fight based on their stats and types alone. This will involve a little more work because we have to list each weakness based on the types, but it is do able and would look really cool :).
+
+### All our progess code wise is in Project2.ipynb!
