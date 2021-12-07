@@ -1,7 +1,7 @@
 # Lab 6, SHAP usage on Iris Data Set
 
 ## Tasks
-   1. Begin by installing the shap library for Python [SHAP Link](https://github.com/slundberg/shap).
+   1. Begin by installing the shap library for Python. [SHAP Link](https://github.com/slundberg/shap).
    2. Do the following with 1) the Iris dataset from last lab, 2) the Adult dataset from last lab, and 3) the dataset you are using for Project 2. Be sure to provide thorough evaluations of the resulting visualizations; use examples from the plots and clear written descriptions to accompany each one. Remember that the ideas here are to help humans understand why a model makes the predictions that it does. So first come up with an explanation for yourself and then write it in a concise way to also convince your reader.
         
      (a) Train a model from the scikit-learn library on the data (e.g. support vector machine, tree classifier, multilayer perceptron). That is, your goal for the iris dataset is a multi-class decision of the iris species, for the adults, the decision is whether or not a person makes over $\$50k, and for your project data will depend on your own focus.
