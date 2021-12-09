@@ -74,3 +74,5 @@ We have answered questions 1 & 2 and began working on implementing the KNN algor
 Once we finish our two main ones, we plan on attempting to make a simple neural net to predict which pokemon would win in a fight based on their stats and types alone. This will involve a little more work because we have to list each weakness based on the types, but it is do able and would look really cool :).
 
 ### All our progess code wise is in Project2.ipynb!
+
+## Final Update; 12/15/21
