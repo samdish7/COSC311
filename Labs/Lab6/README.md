@@ -11,4 +11,14 @@
         
 ## Answers
 
+All answers are in notebook.
+
+*SIDE NOTE*
+
+All predictions give a % chance of one or the other, therefore this would determine how accurately the algorithm can predict a random value based off of those %. 
+
 ## Issues
+
+I'm not really sure how to explain what the shap values mean. I know they determine how influencial each attribute is, but I don't know if that is all I need to say or not.
+
+The force plots for adults is too large, therefore it take too long and literally tells me that. 
