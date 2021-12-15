@@ -76,3 +76,7 @@ Once we finish our two main ones, we plan on attempting to make a simple neural 
 ### All our progess code wise is in Project2.ipynb!
 
 ## Final Update; 12/15/21
+
+Our code is mostly a playground. We couldn't figure out how to do a proper contour plot because our knn.predict returns a Counter object, not an ndarray, we figured this out the morning of the presentation, so we are gonna roll with it.
+
+All the answers to the questions will be presented on the final's date.
